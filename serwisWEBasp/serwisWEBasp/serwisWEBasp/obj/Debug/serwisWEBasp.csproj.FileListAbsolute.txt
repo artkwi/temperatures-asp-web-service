@@ -1,0 +1,68 @@
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\ApplicationInsights.config
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\csc.exe
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CSharp.Core.targets
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\System.Collections.Immutable.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\System.Reflection.Metadata.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\vbc.exe
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\VBCSCompiler.exe
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\roslyn\VBCSCompiler.exe.config
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.dll.config
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.pdb
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Agent.Intercept.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.DependencyCollector.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.PerfCounterCollector.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Web.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.WindowsServer.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.ApplicationInsights.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.DependencyCollector.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Web.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.WindowsServer.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.ApplicationInsights.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.csprojResolveAssemblyReference.cache
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.dll
+j:\documents\visual studio 2015\Projects\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.pdb
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\ApplicationInsights.config
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\csc.exe
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\vbc.exe
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.dll.config
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\serwisWEBasp.pdb
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Web.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.Web.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.csprojAssemblyReference.cache
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.csproj.CoreCompileInputs.cache
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.csproj.CopyComplete
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.dll
+C:\Users\Artur\Desktop\serwisWEBasp\serwisWEBasp\serwisWEBasp\obj\Debug\serwisWEBasp.pdb

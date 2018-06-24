@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CelsjuszToFahrenheit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CelsjuszToFahrenheitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CelsjuszToFahrenheitResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FahrenheitToCelsjusz">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FahrenheitToCelsjuszResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FahrenheitToCelsjuszResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KelwinToCelsjusz">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KelwinToCelsjuszResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KelwinToCelsjuszResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CelsjuszToKelwin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CelsjuszToKelwinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CelsjuszToKelwinResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FahrenheitToKelwin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FahrenheitToKelwinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FahrenheitToKelwinResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KelwinToFahrenheit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="KelwinToFahrenheitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="KelwinToFahrenheitResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Subtract">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="A" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="B" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubtractResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SubtractResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CelsjuszToFahrenheitSoapIn">
+    <wsdl:part name="parameters" element="tns:CelsjuszToFahrenheit" />
+  </wsdl:message>
+  <wsdl:message name="CelsjuszToFahrenheitSoapOut">
+    <wsdl:part name="parameters" element="tns:CelsjuszToFahrenheitResponse" />
+  </wsdl:message>
+  <wsdl:message name="FahrenheitToCelsjuszSoapIn">
+    <wsdl:part name="parameters" element="tns:FahrenheitToCelsjusz" />
+  </wsdl:message>
+  <wsdl:message name="FahrenheitToCelsjuszSoapOut">
+    <wsdl:part name="parameters" element="tns:FahrenheitToCelsjuszResponse" />
+  </wsdl:message>
+  <wsdl:message name="KelwinToCelsjuszSoapIn">
+    <wsdl:part name="parameters" element="tns:KelwinToCelsjusz" />
+  </wsdl:message>
+  <wsdl:message name="KelwinToCelsjuszSoapOut">
+    <wsdl:part name="parameters" element="tns:KelwinToCelsjuszResponse" />
+  </wsdl:message>
+  <wsdl:message name="CelsjuszToKelwinSoapIn">
+    <wsdl:part name="parameters" element="tns:CelsjuszToKelwin" />
+  </wsdl:message>
+  <wsdl:message name="CelsjuszToKelwinSoapOut">
+    <wsdl:part name="parameters" element="tns:CelsjuszToKelwinResponse" />
+  </wsdl:message>
+  <wsdl:message name="FahrenheitToKelwinSoapIn">
+    <wsdl:part name="parameters" element="tns:FahrenheitToKelwin" />
+  </wsdl:message>
+  <wsdl:message name="FahrenheitToKelwinSoapOut">
+    <wsdl:part name="parameters" element="tns:FahrenheitToKelwinResponse" />
+  </wsdl:message>
+  <wsdl:message name="KelwinToFahrenheitSoapIn">
+    <wsdl:part name="parameters" element="tns:KelwinToFahrenheit" />
+  </wsdl:message>
+  <wsdl:message name="KelwinToFahrenheitSoapOut">
+    <wsdl:part name="parameters" element="tns:KelwinToFahrenheitResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubtractSoapIn">
+    <wsdl:part name="parameters" element="tns:Subtract" />
+  </wsdl:message>
+  <wsdl:message name="SubtractSoapOut">
+    <wsdl:part name="parameters" element="tns:SubtractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServicePISSoap">
+    <wsdl:operation name="CelsjuszToFahrenheit">
+      <wsdl:input message="tns:CelsjuszToFahrenheitSoapIn" />
+      <wsdl:output message="tns:CelsjuszToFahrenheitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToCelsjusz">
+      <wsdl:input message="tns:FahrenheitToCelsjuszSoapIn" />
+      <wsdl:output message="tns:FahrenheitToCelsjuszSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToCelsjusz">
+      <wsdl:input message="tns:KelwinToCelsjuszSoapIn" />
+      <wsdl:output message="tns:KelwinToCelsjuszSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CelsjuszToKelwin">
+      <wsdl:input message="tns:CelsjuszToKelwinSoapIn" />
+      <wsdl:output message="tns:CelsjuszToKelwinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToKelwin">
+      <wsdl:input message="tns:FahrenheitToKelwinSoapIn" />
+      <wsdl:output message="tns:FahrenheitToKelwinSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToFahrenheit">
+      <wsdl:input message="tns:KelwinToFahrenheitSoapIn" />
+      <wsdl:output message="tns:KelwinToFahrenheitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Subtract">
+      <wsdl:input message="tns:SubtractSoapIn" />
+      <wsdl:output message="tns:SubtractSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServicePISSoap" type="tns:WebServicePISSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CelsjuszToFahrenheit">
+      <soap:operation soapAction="http://tempuri.org/CelsjuszToFahrenheit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToCelsjusz">
+      <soap:operation soapAction="http://tempuri.org/FahrenheitToCelsjusz" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToCelsjusz">
+      <soap:operation soapAction="http://tempuri.org/KelwinToCelsjusz" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CelsjuszToKelwin">
+      <soap:operation soapAction="http://tempuri.org/CelsjuszToKelwin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToKelwin">
+      <soap:operation soapAction="http://tempuri.org/FahrenheitToKelwin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToFahrenheit">
+      <soap:operation soapAction="http://tempuri.org/KelwinToFahrenheit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Subtract">
+      <soap:operation soapAction="http://tempuri.org/Subtract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServicePISSoap12" type="tns:WebServicePISSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CelsjuszToFahrenheit">
+      <soap12:operation soapAction="http://tempuri.org/CelsjuszToFahrenheit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToCelsjusz">
+      <soap12:operation soapAction="http://tempuri.org/FahrenheitToCelsjusz" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToCelsjusz">
+      <soap12:operation soapAction="http://tempuri.org/KelwinToCelsjusz" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CelsjuszToKelwin">
+      <soap12:operation soapAction="http://tempuri.org/CelsjuszToKelwin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FahrenheitToKelwin">
+      <soap12:operation soapAction="http://tempuri.org/FahrenheitToKelwin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KelwinToFahrenheit">
+      <soap12:operation soapAction="http://tempuri.org/KelwinToFahrenheit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Subtract">
+      <soap12:operation soapAction="http://tempuri.org/Subtract" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServicePIS">
+    <wsdl:port name="WebServicePISSoap" binding="tns:WebServicePISSoap">
+      <soap:address location="http://localhost:35000/WebServicePIS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServicePISSoap12" binding="tns:WebServicePISSoap12">
+      <soap12:address location="http://localhost:35000/WebServicePIS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
